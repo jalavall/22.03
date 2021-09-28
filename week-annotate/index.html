@@ -56,9 +56,17 @@ Which will appear like so:
 
 ![alternate text: image of strandbeest](./strandbeest.jpg)
 
-I can add remote images like this: 
+The ./ indicates that the image file is in the same folder as the .html file displaying it. If this is not the case, be sure to specify the correct path, for example (./images/strandbeest/strandbeest.jpg).
+
+I can add remote images using this syntax: 
+
+`![strandbeest gif](https://upload.wikimedia.org/wikipedia/commons/5/5a/Strandbeest--Full-Walking-Animation.gif)`
+
+Which will appear like so:
 
 ![strandbeest gif](https://upload.wikimedia.org/wikipedia/commons/5/5a/Strandbeest--Full-Walking-Animation.gif)
+
+The alternate text will appear if the image asset cannot be found or if the device is set to block loading images, among other reasons, and will also be read by screen readers.
 
 If I need features that are not accessible through MarkDown, I can still use html tags. For example, resizing images: 
 
