@@ -70,13 +70,21 @@ Which will appear like this:
 
 ![strandbeest gif](https://upload.wikimedia.org/wikipedia/commons/5/5a/Strandbeest--Full-Walking-Animation.gif)
 
-The alternate text will appear if the image asset cannot be found or if the device is set to block loading images, among other reasons, and will also be read by screen readers.
+The alternate text will appear if the image asset cannot be found or if the device is set to block loading images, among other reasons, and will also be read by screen readers (right click and view source to try to spot why this image won't display):
 
 ![alternate text: image of strandbeest](./strandbeest.JPG)
 
-If I need features that are not accessible through MarkDown, I can still use html tags. For example, resizing images: 
+### HTML tags in Markdown
+
+HTML features that are not accessible through Markdown can still be added by using html tags within the Markdown. For example, resizing images: 
+
+`<img src="./strandbeest.jpg" alt="strandbeest" width="200"/>`
 
 <img src="./strandbeest.jpg" alt="strandbeest" width="200"/>
+
+`<img src="./strandbeest.jpg" alt="strandbeest" width="600"/>`
+
+<img src="./strandbeest.jpg" alt="strandbeest" width="600"/>
 
 I can also include things like YouTube videos by clicking "copy embed code" and pasting an iframe element in my file, like this: 
 
